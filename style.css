@@ -1,0 +1,49 @@
+html {
+	background-color: #ffffff;
+	font-size: 13px;
+}
+
+body,html {
+	background: rgb(108, 211, 214);
+	margin: 0;
+	padding-top: 0.2cm;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 10px;
+}
+
+
+button, select {
+    font-size: 23px;
+	background: #fff;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button:hover {
+	background: rgb(199, 169, 34);
+}
+
+.gridContainer {
+	width: 700px;
+	height: 700px;
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: repeat(16, 1fr);
+	grid-column-gap: 1px;
+	grid-row-gap: 1px;
+	background: #fff;
+	border: 8px solid;
+	border-radius: 4px;
+    margin: 10px auto;
+	padding: 1px;
+}
+
+.gridCell {
+	background: #fff;
+}
+
