@@ -44,7 +44,7 @@ function getSize() {
 
 function drawCell(e) {
 	switch (paletteSelector.value) {
-		//if (currentColor == 'black') {
+		
 		case 'black':
 			this.style.background = '#000';
 			break;
